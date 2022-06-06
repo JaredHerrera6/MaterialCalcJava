@@ -29,7 +29,8 @@ public class Main {
                     slab = new Slab(width,Length,thickness,Yields);// creates the slab object with measurements
                     slab.setVolume(); // creates the volume;
                     System.out.println(slab.toString());  // prints the Concrete needed
-                    break;
+                break;
+
                 case 2:     //Steps
                     Steps steps;
                     System.out.println("---STEPS---");
@@ -41,7 +42,7 @@ public class Main {
                     steps = new Steps(width,rise,run,StepCount,PlatformDepth,Yields); // creates the Steps object
                     steps.setVolume();//creates the volume
                     System.out.println(steps.toString()); // prints the concrete needed
-                    break;
+                break;
                 case 3:     // Footing
                     Footings footing;
                     System.out.println("---FOOTING---");

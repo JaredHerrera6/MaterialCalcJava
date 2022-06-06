@@ -21,7 +21,7 @@ public class Walls {
         return Volume;
     }
     public void setVolume(){
-        Volume = thickness * Length * thickness;  // find the volume using L * W * H
+        Volume = thickness * Length * Height;  // find the volume using L * W * H
     }
     private double getYards(){
         double yards;
